@@ -164,3 +164,5 @@ webp:
   # e.g. custom or hand generated webp conversion files
   exclude: []
 ############################################################
+
+theme: jekyll-theme-minimal
