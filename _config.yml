@@ -13,22 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Mars Frontend
+email: mars@marsend.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  marsend
 
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-webp
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -59,4 +60,40 @@ webp:
   # List of files or directories to exclude
   # e.g. custom or hand generated webp conversion files
   exclude: []
+############################################################
+
+# MARS CUSTOM
+
+############################################################
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize
+  # Nested directories will not be checked
+  img_dir: ["/images"]
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: true
+
+  # Path to the WebP utilities to use (relative or absolute)
+  webp_path: "_plugins/webp/x64"
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
+
+  # List of files or directories to explicitly include
+  # e.g. single files outside of the main image directories
+  include: []
 ############################################################
