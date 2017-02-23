@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "阿里云ecs centos 配置虚拟内存"
-date:   2017-02-22 17:21:09 +0800
+date:   2016-06-12 17:21:09 +0800
 categories: server
 tags: "服务器"
 ---
