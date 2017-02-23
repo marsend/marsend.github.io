@@ -23,12 +23,12 @@ ecs上买了一个1g的云主机，在跑[react-starter-kit](https://github.com/
 
 添加以下内容
 <picture>
-    <source srcset="/images/ecsaddswap2.webp" type="image/webp">
-    <img src="/images/ecsaddswap2.png" alt="test">
+    <source srcset="{{site.IMG_PATH}}/ecsaddswap2.webp" type="image/webp">
+    <img src="{{site.IMG_PATH}}/ecsaddswap2.png" alt="test">
 </picture>
 最后，检查下虚拟内存是否成功应用`$ free -m`
 <picture>
-    <source srcset="/images/ecsaddswap3.webp" type="image/webp">
-    <img src="/images/ecsaddswap3.png" alt="test">
+    <source srcset="{{site.IMG_PATH}}/ecsaddswap3.webp" type="image/webp">
+    <img src="{{site.IMG_PATH}}/ecsaddswap3.png" alt="test">
 </picture>
 此时，在react中npm install时就不会出现挂起的情况了，不过发现解压的过程没有纯粹使用内存时快，这也是意料中的事了...
