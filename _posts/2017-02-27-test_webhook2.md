@@ -2,8 +2,8 @@
 layout: post
 title:  "test webhook"
 date:   2017-02-03 17:21:09 +0800
-categories: 服务器
-tags: "服务器"
+categories: server
+tags: "server"
 ---
 第一步，在/etc/yum.repos.d/目录下创建一个源配置文件nginx.repo：
 
