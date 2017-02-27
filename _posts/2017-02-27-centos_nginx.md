@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "1"
+title:  "centos install nginx"
 date:   2017-02-03 17:21:09 +0800
 categories: server
 tags: "server"
