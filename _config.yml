@@ -31,8 +31,8 @@ facebook_username: false
 weibo_username: false
 # Build settings
 highlighter: rouge
-permalink: /posts/:categories/:year:month:day/:title
-#permalink: pretty
+#permalink: /posts/:categories/:year:month:day/:title
+permalink: pretty
 paginate: 10
 markdown: kramdown
 #theme: minima
